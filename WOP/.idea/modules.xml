@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WOW.iml" filepath="$PROJECT_DIR$/WOW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WOP.iml" filepath="$PROJECT_DIR$/WOP.iml" />
     </modules>
   </component>
 </project>
