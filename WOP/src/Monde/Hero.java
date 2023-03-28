@@ -1,18 +1,27 @@
 package Monde;
 
-public class Hero extends Personnage {
-    public Hero(int pointDeVie, String name) {
-        super(pointDeVie, name);
+import Objets.Arme;
+
+public class Hero extends Personnage implements IPersonnage {
+    public Hero(int PointDeVie, String nom) {
+        super(PointDeVie, nom);
     }
-
-    // ArrayList<String> names = new ArrayList<>();
-
-    /*
-    String[] newHéros = {"Lars", "Tim", "Mike", "Matt", "Melvin", "Tom", "Smelly", "Mark", "Fatty", "Travis", "Lindsay", "Jason"};
 
     @Override
-    public void setNom(String nom) {
-        super.setNom(nom);
+    public void setPointDeVie(Integer pointDeVie) {
     }
-     */
+
+    @Override
+    public Arme getArmes() {
+        return null;
+    }
+
+    @Override
+    public void setArmes(Arme armes) {
+    }
+
+    @Override
+    public void attaquer(IPersonnage adversaire) {
+        adversaire.setPointDeVie(this.getPointDeVie() - (this.getArmes().getDegats()));
+    }
 }
