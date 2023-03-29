@@ -7,7 +7,7 @@ import java.util.Random;
 public class UHero {
 
     /**
-     * Créer un personnage avec tous ses attributs.
+     * Créer un personnage avec tous ses attributs avec build.
      * Demande à l'utilisateur d'entrer le nom du personnage.
      * En retour : une instance de la classe Personnage correctement instancié.
      **/
@@ -20,6 +20,7 @@ public class UHero {
     }
 
     public static String[] heroNom = new String[] {
-            "Lars", "Tim", "Mike", "Matt", "Melvin", "Tom", "Smelly", "Mark", "Fatty", "Travis", "Lindsay", "Jason"
+            "Lars", "Tim", "Mike", "Matt", "Melvin", "Tom", "Smelly", "Mark", "Fatty", "Travis", "Lindsay", "Jason", "Gordy",
+            "Hefe", "Joey", "Deedee", "Marky", "Tommy", "Steve", "Chris", "Cosy", "Andy", "Bace", "Kurt", "Billie Joe", "Tre"
     };
 }
